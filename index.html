@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Keylin Rodriguez">
+    <meta name="description" content="Aprendemos a aprender">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Keylin Rodriguez| Aprendiendo a aprender</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/l2.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="img/log.,.jpg" width="105" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+            <button class="bm"><a class="nav-link active" aria-current="page" href="#sobre-mi">Conoce tus emociones</a></button>
+            </li>
+            <li class="nav-item">
+              <button class="bm"><a class="nav-link active" href="#proyectos">¿VIVIR O SOBREVIVIR?</a></button>
+            </li>
+            <li class="nav-item">
+              <button class="bm"><a class="nav-link active" href="#testimonios">¿Cómo te sientes hoy?</a></button>
+            </li>
+            <li class="nav-item">
+              <button class="bm"><a class="nav-link active" href="#contacto">Contacto</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="img/Key.jpeg" alt="Foto de Key">
+        <h1>¿Conozco mis emociones?</h1>
+       <h2>Que el manejo de tu vida solo dependa de tí</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="img/Emoción-1.webp" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Emociones</h2>
+        <p class="seccion-texto"> Conjunto de reacciones orgánicas que experimenta un individuo ante ciertos estímulos externos. Dichas respuestas le permiten adaptarse a una situación con respecto a una persona, objeto, lugar, entre otros. La emoción se caracteriza por ser una alteración del ánimo de corta duración, pero de mayor intensidad que un sentimiento.
+          No importa de que situación se trate, nunca dejes que tus emociones DOMINEN tu INTELIGENCIA.</em></p>
+      </div>
+      <img class="hero-imagen-desarrollador" src="img/lkl.webp" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."> </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="img/Inte.mp4" width="600" height="410" text-aligen="" autoplay controls>Mis emociones día a día</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">ManejaTE</p>
+            <p>Que el poder de tu vida solo lo tengas tú.</p>
+            <p>Todos hemos pasado por un desvalance emocional, lo importante siempre será no darte por vencida.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tienes el poder</span>
+              <span class="badge text-bg-primary">¡Demos el primer paso!</span>
+              <span class="badge text-bg-primary">Que rendirte no sea parte de tí</span>
+              <span class="badge text-bg-primary">Mejora tu vida</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">¿Qué siento el día de hoy?</p>
+            <p>Identifica tu emoción y mejora tu día</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Miedo</span>
+              <span class="badge text-bg-primary">Enojo</span>
+              <span class="badge text-bg-primary">Tristeza</span>
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Frustración</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">¿De qué te sirve conocerte?</p>
+            <p>Aprender a identificar tus estados de ánimo y las consecuencias que estos pueden tener en tu comportamiento.
+              Marcar una diferencia y resolver problemas que merezcan la pena ser resueltos.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">¿Esta bien tener el control?</span>
+              <span class="badge text-bg-primary">¿Que es control?</span>
+              <span class="badge text-bg-primary">¿Debo adoptarlo o evitarlo?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">¿VIVIR O SOBREVIVIR?</h2>
+      <h3 class="seccion-descripcion">La decisión de tu vida empieza hoy...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/intemo.jpg" alt="L1">
+              <p>La vida es mejor cuando estamos concientes de lo que paso dentro de tí y en tu entorno.</p>
+              <div class="overlay">
+                <p>Aprende a conocerte, mejora tu vida desde hoy para siempre</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Keyc77" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://psicologistica.com/aprende-a-conocerte-mejor-desarrolla-tu-autoconsciencia/#:~:text=Algunas%20pr%C3%A1cticas%20fundamentales%20para%20aprender%20a%20conocerte%20mejor,eres.%205%20Aprender%20a%20ser%20compasivo%20contigo%20mismo." target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/cont.jpg" alt="k1">
+                            <p>Considero que las emociones involucran el cambio en nuestra sociedad, iniciando desde la perspectiva personal, pues como hemos escuchado el cambio empieza por ti" </p>
+              <div class="overlay">
+                <p>¿Quiero un cambio o seguiré evitando la mejora?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Keyc77" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://brainly.lat/tarea/69783015#:~:text=Solo%20a%20trav%C3%A9s%20de%20un%20cambio%20bien%20pensado,a%20cambiar%2C%20pero%20de%20manera%20consciente%20y%20estrat%C3%A9gica." target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/li.jpg" alt="Proyecto 3">
+              <p>"El éxito no se mide por los logros, sino por la felicidad que sientes." </p>
+              <div class="overlay">
+                <p>Canaliza tu sentir</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Keyc77" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.domingodelgado.com/aprende-canalizar-las-6-emociones-basicas-cargas-usando-los-colores-adecuados/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/ems.jpg" alt="Proyecto 4">
+              <p>"Siempre hay algo bueno en cada situación, encuentra el lado positivo."</p>
+              <div class="overlay">
+                <p>¿Necesitas despejarte?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Keyc77" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mejorconsalud.as.com/consejos-despejar-mente/#:~:text=10%20consejos%20para%20despejar%20tu%20mente%201%201.,8%208.%20Intenta%20con%20pilates%20...%20M%C3%A1s%20elementos" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/3.jpg" alt="Proyecto 5">
+              <p>"Celebra tus logros, por pequeños que sean."</p>
+              <div class="overlay">
+                <p>Juguemos con tu mente</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Keyc77" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://poki.com/es/mentales" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/4.jpg" alt="Proyecto 6">
+              <p>"No permitas que el miedo te detenga, atrévete a ser valiente."</p>
+              <div class="overlay">
+                <p>¿No logras dormir?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://https://github.com/Keyc77/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://medlineplus.gov/spanish/ency/patientinstructions/000853.htm" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://youtu.be/TlhGY24OSkQ?si=iVmJwQqyCdNtMW9Q" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Recomendaciones...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">¿Cómo te sientes hoy?</h2>
+      <div class="card">
+        <div class="card-header">
+          Más opciones
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://blog.axontraining.com/como-identificar-tus-emociones/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Guía rápida para identificar tu sentir 
+            </li>
+          </a>
+          <a href="https://www.elproyectordeclase.com/2022/02/12-dinamicas-para-trabajar-las-emociones.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Dinamicas para conectar con tus emociones
+            </li>
+          </a>
+          <a href="https://diariodetoluca.com.mx/10-lugares-historicos-del-estado-de-mexico-para-el-mundo/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Despeja tu mente (lugares en el estado de México)
+            </li>
+          </a>
+          <a href="https://psicologiaymente.com/cultura/peliculas-inteligencia-emocional" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Necesitas una película?
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://wordwall.net/es-es/community/juegos-de-emociones" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Juguemos un poco...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Y si transformamos tu vida con...</h2>
+      <h3 class="seccion-descripcion">Aquí podrás ver algunos perritos que han sido adoptados...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/amor.jpg" alt="primero">
+              <p class="testimonio-texto">Amor</p>
+              <div class="testimonio-info">
+                <a href="https://https://lamenteesmaravillosa.com/hagas-lo-que-hagas-hazlo-con-pasion/" target="_blank" rel="noopener noreferrer"style="text-decoration: none">
+                  <p class="cliente">Hagas lo que hagas, hazlo con pasión</p>
+                <p class="cargo">Sonrie, eres dueño de tu vida</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/contorl.jpg" alt="segundo">
+              <p class="testimonio-texto">Control</p>
+              <div class="testimonio-info">
+              <a>¿Necesitas tener todo bajo control?</a>
+              <li class="list-group-item"> 
+                  <p></p>
+                  <a href="https://www.diariofemenino.com/psicologia/autoayuda/los-peligros-para-la-salud-mental-de-querer-controlarlo-todo-siempre/" target="_blank" rel="noopener noreferrer"style="text-decoration: none">Los peligros para la salud mental de querer controlarlo todo siempre</a>
+                  <p></p>            
+                  <a href="https://psicologoemocionalonline.com/ansiedad/la-ansiedad-y-la-necesidad-de-control/#:~:text=Querer%20controlarlo%20todo%20siempre%20nos%20pasar%C3%A1%20factura%2C%20tanto,el%20preludio%20de%20la%20aparici%C3%B3n%20de%20la%20ansiedad." target="_blank" rel="noopener noreferrer"style="text-decoration: none">La ansiedad y la necesidad de control</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/coraje.jpg" alt="tercero">
+              <a class="testimonio-texto" href="https://vanguardia.com.mx/vida/el-dano-que-te-puede-provocar-hacer-corajes-IOVG3351797#:~:text=Hacer%20corajes%20en%20forma%20constante%20es%20resultado%20de,situaciones%20graves%20como%20infarto%2C%20advirtieron%20m%C3%A9dicos%20del%20IMSS." target="_blank" rel="noopener noreferrer"style="text-decoration: none"> coraje</a>
+              <div class="testimonio-info">
+                <a href="https://psicologiaymente.com/clinica/perfeccionismo-y-su-impacto-en-salud-mental" target="_blank" rel="noopener noreferrer"style="text-decoration: none">Precisión o perfección</a>
+                <p></p>
+                <a href="https://bureku.com/la-importancia-de-aprender-a-soltar-consejos-para-dejar-ir-y-avanzar/#:~:text=Consejos%20para%20aprender%20a%20soltar%20y%20avanzar%201,la%20necesidad%20de%20aferrarnos%20al%20pasado.%20M%C3%A1s%20elementos" target="_blank" rel="noopener noreferrer"style="text-decoration: none">Aprendendiendo a soltar</a>
+                
+              </div>
+            </div>
+          </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos compartir puntos de vista.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="keylin.rodriguez.78@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="img/log.,.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Keyroflo7" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/settings/profile" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/keylin-rodriguez-b716142a1/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/keylinroflo?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Keylin Rodriguez </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
